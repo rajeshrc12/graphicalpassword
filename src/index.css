@@ -1,13 +1,104 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    margin: 0;
+    background-image: url("./Moon.svg");
+    background-size: cover;
+    font-family: 'Poppins';
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid white;
+    border-radius: 1rem;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(.1rem);
+}
+.flip{
+    transform: rotate(180deg);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input_wrapper{
+    position: relative;
+}
+.icon{
+    cursor: pointer;
+    top: 2rem;
+    right: 2rem;
+    position: absolute;
+}
+.circle{
+    position: relative;
+}
+input,select{
+    width: 20rem;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    font-family: 'Poppins';
+}
+input::placeholder{
+    color: rgb(193, 193, 193);
+}
+select{
+    width: 22rem;
+}
+select option{
+    color: black;
+    font-size: 1rem;
+}
+input:focus,select:focus{
+    outline: none;
+    border: .1rem solid white;
+}
+button{
+    background-color: rgba(255,255,255,0.13);
+    border: .1rem solid white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    color: white;
+}
+.title{
+    font-size: 2rem;
+    padding: .5rem;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.circle{
+    position: relative;
+}
+.info{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media screen and (max-width:500px) {
+    .container{
+        width: 100%;
+    }
+    .card{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
 }
