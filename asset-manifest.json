@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/graphicalpassword/static/css/main.79af214c.css",
-    "main.js": "/graphicalpassword/static/js/main.d1a84349.js",
+    "main.js": "/graphicalpassword/static/js/main.2b96c3a1.js",
     "static/media/Moon.svg": "/graphicalpassword/static/media/Moon.f32aae32c9ea85900850.svg",
     "index.html": "/graphicalpassword/index.html",
     "main.79af214c.css.map": "/graphicalpassword/static/css/main.79af214c.css.map",
-    "main.d1a84349.js.map": "/graphicalpassword/static/js/main.d1a84349.js.map"
+    "main.2b96c3a1.js.map": "/graphicalpassword/static/js/main.2b96c3a1.js.map"
   },
   "entrypoints": [
     "static/css/main.79af214c.css",
-    "static/js/main.d1a84349.js"
+    "static/js/main.2b96c3a1.js"
   ]
 }
