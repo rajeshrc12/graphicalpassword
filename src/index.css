@@ -24,10 +24,7 @@ body{
 .flip{
     transform: rotate(180deg);
 }
-input:-webkit-autofill,
-input:-webkit-autofill:focus {
-    transition: background-color 600000s 0s, color 600000s 0s;
-}
+
 
 .input_wrapper{
     position: relative;
